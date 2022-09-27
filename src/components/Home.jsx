@@ -12,7 +12,7 @@ const Home = () => {
                     I'm a Full Stack Developer
                 </h2>
                 <p className='text-white py-4 max-w-md'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe et id commodi autem eveniet? Dignissimos totam earum harum error officiis dolorem optio nostrum veritatis quasi at! Labore, incidunt deleniti?
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, temporibus! Recusandae, aliquam fuga enim eveniet iusto ex, dicta eaque quidem tempora suscipit officiis provident! Necessitatibus quia a magni excepturi harum.
                 </p>
                 <div>
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500  cursor-pointer'>Portfolio <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight size={25} className='ml-1'/> </span></Link>

@@ -7,7 +7,7 @@ const About = () => {
             <div className='pb-6'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
             </div>
-            <p className='text-xl mt-20 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, distinctio minus doloremque sit consectetur ab vel adipisci eos ipsa odio animi corporis deserunt magni quia cumque, excepturi quis? Placeat eos tempore quod? Sequi tenetur, nobis est natus, quaerat mollitia quis quam vero amet culpa id maxime temporibus ullam libero perferendis.</p>
+            <p className='text-xl mt-20 '>Hello everyone! I'm Sahil Malik, an undergraduate of B.Tech CSE. I'm a full stack web developer and I love creating cool and fully functional web applications. I also love coffee and books.</p>
 
             <br />
 
