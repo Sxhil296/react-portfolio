@@ -28,21 +28,21 @@ const Portfolio = () => {
             id: 3,
             src: rocket,
             name: 'Acne Rocket',
-            href: ' ',
-            code: ' '
+            href: '#',
+            code: '#'
         },
         {
             id: 4,
             src: parallax,
             name: 'Parallax Webpage',
-            href: ' ',
+            href: '#',
             code: 'https://github.com/Sxhil296/parallax-website'
         },
         {
             id: 5,
             src: calculator,
             name: 'A Basic Calculator',
-            href: ' ',
+            href: 'https://lucent-gnome-f932a7.netlify.app/',
             code: 'https://github.com/Sxhil296/vanillajscalculator '
         },
         // {
@@ -56,7 +56,7 @@ const Portfolio = () => {
             id: 7,
             src: counter,
             name: 'Passenger-Counter',
-            href: ' ',
+            href: 'https://gentle-mochi-011a41.netlify.app/',
             code: 'https://github.com/Sxhil296/passenger-counter'
         }
     ]
