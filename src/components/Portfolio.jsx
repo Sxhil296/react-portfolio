@@ -32,7 +32,7 @@ const Portfolio = () => {
             name: 'Acne Rocket',
             href: '#',
             code: '#',
-            details: 'Acne Rocket is a single-page web application made using ReactJS. (Incomplete)'
+            details: 'Acne Rocket is a single-page web application made by using ReactJS. (Incomplete)'
         },
         {
             id: 4,
@@ -48,7 +48,7 @@ const Portfolio = () => {
             name: 'A Basic Calculator',
             href: 'https://lucent-gnome-f932a7.netlify.app/',
             code: 'https://github.com/Sxhil296/vanillajscalculator ',
-            details: 'A calculator which performs basic operations mabe by using HTML, CSS & JavaScript.'
+            details: 'A basic calculator  made by using HTML, CSS & JavaScript.'
         },
         // {
         //     id: 6,
@@ -78,7 +78,7 @@ const Portfolio = () => {
             {
                 portfolios.map(({id, name, src, href, code, details}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                    <img src={src} alt=""  className='rounded-md duration-200 hover:scale-105'/>
+                    <img src={src} alt=""  className='rounded-md duration-200  hover:scale-105' />
                     <p className='text-xl text-center mt-2'>{name}</p>
                     <p className='text-center m-1 text-gray-500'>{details}</p>
                     <div className='flex items-center justify-center'>
