@@ -30,9 +30,9 @@ const Portfolio = () => {
             id: 3,
             src: rocket,
             name: 'Acne Rocket',
-            href: '#',
-            code: '#',
-            details: 'Acne Rocket is a single-page web application made by using ReactJS. (Incomplete)'
+            href: 'https://acne-rocket.netlify.app/',
+            code: 'https://github.com/Sxhil296/acne-rockets',
+            details: 'Acne Rocket is a single-page web application made by using TailwindCSS.'
         },
         {
             id: 4,
