@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/heroo.png'
+import HeroImage from '../assets/hero.png'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md' 
 import { Link } from 'react-scroll'
 
@@ -9,12 +9,9 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                    I'm <span className='text-sky'>Sahil</span>
+                    Hey! I'm <span className='text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500'>Sahil</span>
                 </h2>
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>Full Stack Developer</h2>
-                <p className='text-white py-4 max-w-md'>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, temporibus! Recusandae, aliquam fuga enim eveniet iusto ex, dicta eaque quidem tempora suscipit officiis provident! Necessitatibus quia a magni excepturi harum.
-                </p>
+                <p className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Designer & Developer</p>
                 <div>
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500  cursor-pointer'>Portfolio <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight size={25} className='ml-1'/> </span></Link>
                 </div>
