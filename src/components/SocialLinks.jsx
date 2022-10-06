@@ -14,7 +14,7 @@ const SocialLinks = () => {
               LinkedIn <FaLinkedin size={30} />
             </>
           ),
-          href: "https://linkedin.com",
+          href: "https://www.linkedin.com/in/sahil-malik-677520252/",
           style: "rounded-tr-md",
         },
         {
