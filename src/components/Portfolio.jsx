@@ -6,6 +6,7 @@ import parallax from "../assets/portfolio/parallax.png";
 import calculator from "../assets/portfolio/calculator.png";
 // import blackjack from "../assets/portfolio/blackjack.png";
 import counter from "../assets/portfolio/counter.png";
+import glxtrvl from "../assets/portfolio/glxtrvl.png"
 
 const Portfolio = () => {
 
@@ -64,6 +65,14 @@ const Portfolio = () => {
             href: 'https://gentle-mochi-011a41.netlify.app/',
             code: 'https://github.com/Sxhil296/passenger-counter',
             details: 'A simple passenger counter app made by using HTML, CSS & JavaScript.'
+        }
+        {
+            id: 8,
+            src: glxtrvl,
+            name: 'GLX TRVL',
+            href: 'https://galaxytrvl.netlify.app/',
+            code: 'https://github.com/Sxhil296/glx-travel',
+            details: 'A space travel multi page website developed in ReactJS.'
         }
     ]
   return (
