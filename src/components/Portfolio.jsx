@@ -2,7 +2,7 @@ import React from 'react'
 import meowmeet from "../assets/portfolio/meowmeet.png";
 import malcolmx from "../assets/portfolio/malcolmx.png";
 import rocket from "../assets/portfolio/rocket.png";
-import parallax from "../assets/portfolio/parallax.png";
+// import parallax from "../assets/portfolio/parallax.png";
 import calculator from "../assets/portfolio/calculator.png";
 // import blackjack from "../assets/portfolio/blackjack.png";
 import counter from "../assets/portfolio/counter.png";
@@ -35,14 +35,14 @@ const Portfolio = () => {
             code: 'https://github.com/Sxhil296/acne-rockets',
             details: 'Acne Rocket is a single-page web application made by using TailwindCSS.'
         },
-        {
-            id: 4,
-            src: parallax,
-            name: 'Parallax Webpage',
-            href: '#',
-            code: 'https://github.com/Sxhil296/parallax-website',
-            details: 'A simple parallax webpage made by using HTML and CSS.'
-        },
+        // {
+        //     id: 4,
+        //     src: parallax,
+        //     name: 'Parallax Webpage',
+        //     href: '#',
+        //     code: 'https://github.com/Sxhil296/parallax-website',
+        //     details: 'A simple parallax webpage made by using HTML and CSS.'
+        // },
         {
             id: 5,
             src: calculator,
@@ -65,7 +65,7 @@ const Portfolio = () => {
             href: 'https://gentle-mochi-011a41.netlify.app/',
             code: 'https://github.com/Sxhil296/passenger-counter',
             details: 'A simple passenger counter app made by using HTML, CSS & JavaScript.'
-        }
+        },
         {
             id: 8,
             src: glxtrvl,
