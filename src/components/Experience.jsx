@@ -11,6 +11,9 @@ import node from "../assets/node.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import mysql from "../assets/mysql.png";
+import python from "../assets/python-logo.png";
+import java from "../assets/java-logo.png";
+import nextjs from "../assets/next-js.png";
 
 
 const Experience = () => {
@@ -28,23 +31,23 @@ const Experience = () => {
             title: 'CSS',
             style: 'shadow-blue-500'
         },
-        {
-            id: 3,
-            src: bootstrap,
-            title: 'Bootstrap',
-            style: 'shadow-purple-500'
-        },
+        // {
+        //     id: 3,
+        //     src: bootstrap,
+        //     title: 'Bootstrap',
+        //     style: 'shadow-purple-500'
+        // },
         {
             id: 4,
-            src: tailwind,
-            title: 'TailwindCSS',
-            style: 'shadow-sky-400'
-        },
-        {
-            id: 5,
             src: javascript,
             title: 'JavaScript',
             style: 'shadow-yellow-500'
+        },
+        {
+            id: 5,
+            src: tailwind,
+            title: 'TailwindCSS',
+            style: 'shadow-sky-400'
         },
         {
             id: 6,
@@ -76,14 +79,27 @@ const Experience = () => {
             title: 'Git',
             style: 'shadow-orange-600'
         },
+        // {
+        //     id: 11,
+        //     src: github,
+        //     title: 'GitHub',
+        //     style: 'shadow-gray-400'
+        // },
         {
             id: 11,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-gray-400'
+            src: python,
+            title: 'Python',
+            style: 'shadow-yellow-300'
         },
         {
             id: 12,
+            src: java,
+            title: 'Java',
+            style: 'shadow-red-600'
+        },
+
+        {
+            id: 13,
             src: mysql,
             title: 'MySQL',
             style: 'shadow-orange-400'
