@@ -1,11 +1,8 @@
 import React from 'react'
 import meowmeet from "../assets/portfolio/meowmeet.png";
 import malcolmx from "../assets/portfolio/malcolmx.png";
-import rocket from "../assets/portfolio/rocket.png";
-// import parallax from "../assets/portfolio/parallax.png";
+// import rocket from "../assets/portfolio/rocket.png";
 import calculator from "../assets/portfolio/calculator.png";
-// import blackjack from "../assets/portfolio/blackjack.png";
-import counter from "../assets/portfolio/counter.png";
 import glxtrvl from "../assets/portfolio/glxtrvl.png"
 import todo from "../assets/portfolio/todo.png"
 import interd from "../assets/portfolio/interd.png"
@@ -29,55 +26,26 @@ const Portfolio = () => {
             code: 'https://github.com/Sxhil296/malcolmx-tribute-page',
             details: 'A responsive tribute-page for Malcolm-X made by using HTML, CSS and JavaScript.'
         },
-        // {
-        //     id: 3,
-        //     src: rocket,
-        //     name: 'Acne Rocket',
-        //     href: 'https://preeminent-cassata-ba5f84.netlify.app/',
-        //     code: 'https://github.com/Sxhil296/acne-rockets',
-        //     details: 'Acne Rocket is a single-page web application made by using TailwindCSS.'
-        // },
-        // {
-        //     id: 4,
-        //     src: parallax,
-        //     name: 'Parallax Webpage',
-        //     href: '#',
-        //     code: 'https://github.com/Sxhil296/parallax-website',
-        //     details: 'A simple parallax webpage made by using HTML and CSS.'
-        // },
+      
         {
-            id: 5,
+            id: 3,
             src: calculator,
             name: 'A Basic Calculator',
             href: 'https://lucent-gnome-f932a7.netlify.app/',
             code: 'https://github.com/Sxhil296/vanillajscalculator ',
             details: 'A basic calculator  made by using HTML, CSS & JavaScript.'
         },
-        // {
-        //     id: 6,
-        //     src: blackjack,
-        //     name: 'Blackjack',
-        //     href: ' ',
-        //     code: 'https://github.com/Sxhil296/blackjackgame'
-        // },
-        // {
-        //     id: 7,
-        //     src: counter,
-        //     name: 'Passenger-Counter',
-        //     href: 'https://gentle-mochi-011a41.netlify.app/',
-        //     code: 'https://github.com/Sxhil296/passenger-counter',
-        //     details: 'A simple passenger counter app made by using HTML, CSS & JavaScript.'
-        // },
+    
         {
-            id: 8,
+            id: 4,
             src: glxtrvl,
             name: 'GLX TRVL',
-            href: 'https://galaxytrvl.netlify.app/',
-            code: 'https://github.com/Sxhil296/glx-travel',
+            href: 'https://galaxytrvl.netlify.app',
+            code: '#',
             details: 'A space travel multi page website developed in ReactJS.'
         },
         {
-            id: 9,
+            id: 5,
             src: todo,
             name: 'Todo App',
             href: '#',
@@ -85,7 +53,7 @@ const Portfolio = () => {
             details: 'A Todo App developed in ReactJS, TailwindCSS and Firebase.'
         },
         {
-            id: 10,
+            id: 6,
             src: interd,
             name: 'InterD.',
             href: '#',

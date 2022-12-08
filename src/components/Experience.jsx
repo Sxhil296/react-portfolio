@@ -1,7 +1,7 @@
 import React from 'react'
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-import bootstrap from "../assets/bootstrap.png";
+// import bootstrap from "../assets/bootstrap.png";
 import tailwind from "../assets/tailwind.png";
 import javascript from "../assets/javascript.png";
 import mongodb from "../assets/mongodb2.png";
@@ -9,11 +9,11 @@ import expressjs from "../assets/exjs.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
 import git from "../assets/git.png";
-import github from "../assets/github.png";
+// import github from "../assets/github.png";
 import mysql from "../assets/mysql.png";
 import python from "../assets/python-logo.png";
 import java from "../assets/java-logo.png";
-import nextjs from "../assets/next-js.png";
+// import nextjs from "../assets/next-js.png";
 
 
 const Experience = () => {
@@ -79,12 +79,7 @@ const Experience = () => {
             title: 'Git',
             style: 'shadow-orange-600'
         },
-        // {
-        //     id: 11,
-        //     src: github,
-        //     title: 'GitHub',
-        //     style: 'shadow-gray-400'
-        // },
+     
         {
             id: 11,
             src: python,
