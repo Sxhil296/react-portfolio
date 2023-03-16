@@ -1,11 +1,10 @@
 import React from 'react'
 import meowmeet from "../assets/portfolio/meowmeet.png";
 import malcolmx from "../assets/portfolio/malcolmx.png";
-// import rocket from "../assets/portfolio/rocket.png";
 import calculator from "../assets/portfolio/calculator.png";
 import glxtrvl from "../assets/portfolio/glxtrvl.png"
-import todo from "../assets/portfolio/todo.png"
-import interd from "../assets/portfolio/interd.png"
+import actvision from "../assets/portfolio/actvision.png"
+import hackthisfeb from "../assets/portfolio/hackthisfeb.png"
 
 const Portfolio = () => {
 
@@ -46,19 +45,19 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            src: todo,
-            name: 'Todo App',
-            href: '#',
+            src: hackthisfeb,
+            name: 'HackThisFeb',
+            href: 'https://hackthisfeb.netlify.app/',
             code: '#',
-            details: 'A Todo App developed in ReactJS, TailwindCSS and Firebase.'
+            details: 'HackThisFeb is a website designed for the hackathon. It is developed in React.js and TailwindCSS.'
         },
         {
             id: 6,
-            src: interd,
-            name: 'InterD.',
+            src: actvision,
+            name: 'ActVision.',
             href: '#',
             code: '#',
-            details: 'An e-commerce website for interior house designing developed using ReactJS.'
+            details: 'An e-commerce website for a security agency developed using ReactJS, TailwindCSS.'
         }
     ]
   return (
@@ -73,7 +72,6 @@ const Portfolio = () => {
             {
                 portfolios.map(({id, name, src, href, code, details}) => (
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-                    {/* <img src={src} alt=""  className='rounded-md duration-200  hover:scale-105' /> */}
                     <img src={src} alt=""  className='rounded-md duration-200' />
                     <p className='text-xl text-center mt-2'>{name}</p>
                     <p className='text-center m-1 text-gray-500'>{details}</p>

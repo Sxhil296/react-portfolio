@@ -8,12 +8,12 @@ import mongodb from "../assets/mongodb2.png";
 import expressjs from "../assets/exjs.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
-import git from "../assets/git.png";
+// import git from "../assets/git.png";
 // import github from "../assets/github.png";
 import mysql from "../assets/mysql.png";
 import python from "../assets/python-logo.png";
 import java from "../assets/java-logo.png";
-// import nextjs from "../assets/next-js.png";
+import nextjs from "../assets/next.png";
 
 
 const Experience = () => {
@@ -75,9 +75,9 @@ const Experience = () => {
         },
         {
             id: 10,
-            src: git,
-            title: 'Git',
-            style: 'shadow-orange-600'
+            src: nextjs,
+            title: 'NextJS',
+            style: 'shadow-white'
         },
      
         {

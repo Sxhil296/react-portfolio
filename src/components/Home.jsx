@@ -5,13 +5,13 @@ import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pb-40 pt-40'>
+    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pb-40 pt-60'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row '>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                     Hey! I'm <span className='text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-blue-500'>Sahil</span>
                 </h2>
-                <p className="font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Designer & Developer</p>
+                <p className="font-extrabold text-transparent md:text-7xl text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">Designer & Developer</p>
                 <div>
                     <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500  cursor-pointer'>Portfolio <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight size={25} className='ml-1'/> </span></Link>
                 </div>
