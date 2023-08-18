@@ -5,18 +5,20 @@ import calculator from "../assets/portfolio/calculator.png";
 import glxtrvl from "../assets/portfolio/glxtrvl.png";
 import actvision from "../assets/portfolio/actvision.png";
 import hackthisfeb from "../assets/portfolio/hackthisfeb.png";
+import blog from "../assets/portfolio/blog.png"
+import parallaxport from "../assets/portfolio/parallax-port.png"
 
 const Portfolio = () => {
   const portfolios = [
-    {
-      id: 1,
-      src: meowmeet,
-      name: "Meowmeet",
-      href: "https://meowmeet.netlify.app/",
-      code: "https://github.com/Sxhil296/meowmeet",
-      details:
-        "A simple tinder-like dating website for cats made by using HTML, CSS & Bootstrap.",
-    },
+    // {
+    //   id: 1,
+    //   src: meowmeet,
+    //   name: "Meowmeet",
+    //   href: "https://meowmeet.netlify.app/",
+    //   code: "https://github.com/Sxhil296/meowmeet",
+    //   details:
+    //     "A simple tinder-like dating website for cats made by using HTML, CSS & Bootstrap.",
+    // },
     {
       id: 2,
       src: malcolmx,
@@ -29,11 +31,11 @@ const Portfolio = () => {
 
     {
       id: 3,
-      src: calculator,
-      name: "A Basic Calculator",
-      href: "https://lucent-gnome-f932a7.netlify.app/",
-      code: "https://github.com/Sxhil296/vanillajscalculator ",
-      details: "A basic calculator  made by using HTML, CSS & JavaScript.",
+      src: parallaxport,
+      name: "Portfolio 2.0",
+      href: "https://sahilmalik2.netlify.app/",
+      code: "https://github.com/Sxhil296/portfolio-parallax",
+      details: "My portfolio website with parallax effect which I designed using HTML, CSS and JavaScript.",
     },
 
     {
@@ -62,11 +64,20 @@ const Portfolio = () => {
       details:
         "An e-commerce website for a security agency developed using ReactJS, TailwindCSS.",
     },
+    {
+      id: 7,
+      src: blog,
+      name: "MyBlog",
+      href: "#",
+      code: "https://github.com/Sxhil296/mern-blog",
+      details:
+        "A full stack blog application built by using MERN stack.",
+    },
   ];
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-20"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-20 pb-20"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full p-4 ">
         <div className="pb-8">
