@@ -1,7 +1,7 @@
 import React from "react";
-import meowmeet from "../assets/portfolio/meowmeet.png";
+// import meowmeet from "../assets/portfolio/meowmeet.png";
 import malcolmx from "../assets/portfolio/malcolmx.png";
-import calculator from "../assets/portfolio/calculator.png";
+// import calculator from "../assets/portfolio/calculator.png";
 import glxtrvl from "../assets/portfolio/glxtrvl.png";
 import actvision from "../assets/portfolio/actvision.png";
 import hackthisfeb from "../assets/portfolio/hackthisfeb.png";
