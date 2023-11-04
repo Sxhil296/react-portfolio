@@ -25,8 +25,8 @@ const About = () => {
         <p className='text-xl'>For clients: Elevate your digital presence and user experiences with my expertise.</p>
         <br />
         <p className='text-xl'>For HRs: Consider me as a dynamic addition to your team, contributing creativity and technical skills.</p>
-        <br className='text-xl'/>
-        <p>Let's connect to achieve your goals. Success is the destination, and I'm here to help you reach it!</p>
+        <br />
+        <p className='text-xl'>Let's connect to achieve your goals. Success is the destination, and I'm here to help you reach it!</p>
         {/* <p><a href="https://www.buymeacoffee.com/leviack629i" target="_blank" rel="noopener noreferrer"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=leviack629i&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" alt="coffee"/></a></p> */}
       </div>
     </div>
