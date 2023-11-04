@@ -14,6 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20 ">Greetings, all!</p>
+        <br />
         <p className="text-xl">
           I'm Sahil Malik, a B.Tech CSE undergraduate, specializing in design
           and full-stack development. My passion lies in crafting cutting-edge
