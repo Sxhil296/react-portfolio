@@ -7,6 +7,8 @@ import actvision from "../assets/portfolio/actvision.png";
 import hackthisfeb from "../assets/portfolio/hackthisfeb.png";
 import blog from "../assets/portfolio/blog.png"
 import parallaxport from "../assets/portfolio/parallax-port.png"
+import blogosphere from "../assets/portfolio/blogosphere.png"
+import imageai from "../assets/portfolio/imageai.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -40,11 +42,11 @@ const Portfolio = () => {
 
     {
       id: 4,
-      src: glxtrvl,
-      name: "GLX TRVL",
-      href: "https://galaxytrvl.netlify.app",
+      src: imageai,
+      name: "ImageAI",
+      href: "https://github.com/Sxhil296/image-ai",
       code: "#",
-      details: "A space travel multi page website developed in ReactJS.",
+      details: "An image generating platform built by using MERN stack and OpenAI.",
     },
     {
       id: 5,
@@ -66,10 +68,10 @@ const Portfolio = () => {
     },
     {
       id: 7,
-      src: blog,
-      name: "MyBlog",
+      src: blogosphere,
+      name: "Blogosphere",
       href: "#",
-      code: "https://github.com/Sxhil296/mern-blog",
+      code: "https://github.com/Sxhil296/Blogosphere",
       details:
         "A full stack blog application built by using MERN stack.",
     },
