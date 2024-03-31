@@ -10,7 +10,7 @@ import parallaxport from "../assets/portfolio/parallax-port.png"
 import blogosphere from "../assets/portfolio/blogosphere.png"
 import imageai from "../assets/portfolio/imageai.png"
 
-const Portfolio = () => {
+const Projects = () => {
   const portfolios = [
     // {
     //   id: 1,
@@ -78,8 +78,9 @@ const Portfolio = () => {
   ];
   return (
     <div
-      name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-20 pb-20"
+      name="projects"
+      // className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-20 pb-20"
+      className=" w-full text-white md:h-screen pt-20 pb-20"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full p-4 ">
         <div className="pb-8">
@@ -127,4 +128,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;

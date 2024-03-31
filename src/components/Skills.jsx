@@ -15,7 +15,7 @@ import python from "../assets/python-logo.png";
 // import java from "../assets/java-logo.png";
 import nextjs from "../assets/next.png";
 
-const Experience = () => {
+const Skills = () => {
   const tech = [
     {
       id: 1,
@@ -30,10 +30,10 @@ const Experience = () => {
       style: "shadow-blue-500",
     },
     {
-        id: 3,
-        src: git,
-        title: 'Git',
-        style: 'shadow-red-400'
+      id: 3,
+      src: git,
+      title: "Git",
+      style: "shadow-red-400",
     },
     {
       id: 4,
@@ -101,8 +101,9 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full f-screen pt-20"
+      name="skills"
+      // className="bg-gradient-to-b from-gray-800 to-black w-full f-screen pt-20"
+      className=" w-full f-screen pt-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -129,4 +130,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Skills;
