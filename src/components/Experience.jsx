@@ -8,11 +8,11 @@ import mongodb from "../assets/mongodb2.png";
 import expressjs from "../assets/exjs.png";
 import reactImage from "../assets/react.png";
 import node from "../assets/node.png";
-// import git from "../assets/git.png";
+import git from "../assets/git.png";
 // import github from "../assets/github.png";
 import mysql from "../assets/mysql.png";
 import python from "../assets/python-logo.png";
-import java from "../assets/java-logo.png";
+// import java from "../assets/java-logo.png";
 import nextjs from "../assets/next.png";
 
 const Experience = () => {
@@ -29,12 +29,12 @@ const Experience = () => {
       title: "CSS",
       style: "shadow-blue-500",
     },
-    // {
-    //     id: 3,
-    //     src: bootstrap,
-    //     title: 'Bootstrap',
-    //     style: 'shadow-purple-500'
-    // },
+    {
+        id: 3,
+        src: git,
+        title: 'Git',
+        style: 'shadow-red-400'
+    },
     {
       id: 4,
       src: javascript,
@@ -84,12 +84,12 @@ const Experience = () => {
       title: "Python",
       style: "shadow-yellow-300",
     },
-    {
-      id: 12,
-      src: java,
-      title: "Java",
-      style: "shadow-red-600",
-    },
+    // {
+    //   id: 12,
+    //   src: java,
+    //   title: "Java",
+    //   style: "shadow-red-600",
+    // },
 
     {
       id: 13,
