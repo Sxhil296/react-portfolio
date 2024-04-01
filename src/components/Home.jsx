@@ -46,7 +46,7 @@ const Home = () => {
       </div> */}
       <div className="max-w-screen-lg mx-auto flex items-center justify-center h-screen">
         <div className="p-8">
-          <h3 className="text-sm sm:text-[20px] text-pink-700 font-medium my-1">
+          <h3 className="text-sm sm:text-[20px] text-[#8892b0] font-medium my-1">
             Hi, my name is
           </h3>
           <h1 className="text-3xl sm:text-7xl text-[#D1D5DB] font-bold ">
@@ -65,7 +65,7 @@ const Home = () => {
             to="portfolio"
             smooth
             duration={500}
-            className="group text-white w-fit px-4 sm:px-6 py-3 my-2 flex items-center border-2 border-[#D1D5DB] hover:bg-pink-700 hover:border-pink-700 cursor-pointer"
+            className="group text-white w-fit px-4 sm:px-6 py-3 my-2 flex items-center border-2 border-[#D1D5DB] hover:text-black hover:bg-[#D1D5DB] cursor-pointer"
           >
             View Work
             <span className="group-hover:rotate-90 duration-300 ">
