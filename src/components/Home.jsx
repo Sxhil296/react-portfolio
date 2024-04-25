@@ -46,16 +46,16 @@ const Home = () => {
       </div> */}
       <div className="max-w-screen-lg mx-auto flex items-center justify-center h-screen">
         <div className="p-8">
-          <h3 className="text-sm sm:text-[20px] text-[#8892b0] font-medium my-1">
+          <h3 className="text-[16px] sm:text-[20px] text-[#8892b0] font-medium my-2">
             Hi, my name is
           </h3>
-          <h1 className="text-3xl sm:text-7xl text-[#D1D5DB] font-bold ">
+          <h1 className="text-4xl sm:text-7xl text-[#D1D5DB] font-bold ">
             Sahil Malik
           </h1>
           <h2 className="text-3xl sm:text-7xl text-[#8892b0] font-bold ">
             I'm a MERN Stack Developer.
           </h2>
-          <p className="text-[#8892b0] text-[16px] sm:text-xl text-justify my-2">
+          <p className="text-[#8892b0] text-xl sm:text-xl text-justify my-2">
             Passionate MERN Stack Developer specializing in modern web
             applications. Skilled in HTML, CSS, JavaScript, ReactJS, Node.js,
             Express, MongoDB, and MySQL. Committed to delivering innovative and
@@ -65,7 +65,7 @@ const Home = () => {
             to="portfolio"
             smooth
             duration={500}
-            className="group text-white w-fit px-4 sm:px-6 py-3 my-2 flex items-center border-2 border-[#D1D5DB] hover:text-black hover:bg-[#D1D5DB] cursor-pointer"
+            className="group text-white w-fit px-4 sm:px-6 py-3 my-4 sm:my-2 flex items-center border-2 border-[#D1D5DB] hover:text-black hover:bg-[#D1D5DB] cursor-pointer"
           >
             View Work
             <span className="group-hover:rotate-90 duration-300 ">
