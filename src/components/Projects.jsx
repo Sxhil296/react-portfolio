@@ -1,6 +1,7 @@
 import React from "react";
 // import meowmeet from "../assets/portfolio/meowmeet.png";
-import malcolmx from "../assets/portfolio/malcolmx.png";
+// import malcolmx from "../assets/portfolio/malcolmx.png";
+import quizzz from "../assets/portfolio/quizzz.png"
 // import calculator from "../assets/portfolio/calculator.png";
 // import glxtrvl from "../assets/portfolio/glxtrvl.png";
 import actvision from "../assets/portfolio/actvision.png";
@@ -23,12 +24,12 @@ const Projects = () => {
     // },
     {
       id: 2,
-      src: malcolmx,
-      name: "Malcolm-X",
-      href: "https://malcolmx.netlify.app/",
-      code: "https://github.com/Sxhil296/malcolmx-tribute-page",
+      src: quizzz,
+      name: "Quizzz",
+      href: "https://islam-quizzz.netlify.app/",
+      code: "https://github.com/Sxhil296/quizzz",
       details:
-        "A responsive tribute-page for Malcolm-X made by using HTML, CSS and JavaScript.",
+        "An islamic quiz app that offers different quizzes developed by using ReactJS and ShadCN.",
     },
 
     {
