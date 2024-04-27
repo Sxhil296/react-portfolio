@@ -4,7 +4,8 @@ import React from "react";
 import quizzz from "../assets/portfolio/quizzz.png"
 // import calculator from "../assets/portfolio/calculator.png";
 // import glxtrvl from "../assets/portfolio/glxtrvl.png";
-import actvision from "../assets/portfolio/actvision.png";
+// import actvision from "../assets/portfolio/actvision.png";
+import advocate from "../assets/portfolio/advocate.png"
 import hackthisfeb from "../assets/portfolio/hackthisfeb.png";
 // import blog from "../assets/portfolio/blog.png"
 import parallaxport from "../assets/portfolio/parallax-port.png"
@@ -60,12 +61,12 @@ const Projects = () => {
     },
     {
       id: 6,
-      src: actvision,
-      name: "ActVision.",
-      href: "https://actvisionelectronics.netlify.app/",
-      code: "https://github.com/Sxhil296/actvision",
+      src: advocate,
+      name: "Advocate Portfolio.",
+      href: "https://advamjad.netlify.app/",
+      code: "https://github.com/Sxhil296/advocate-portfolio",
       details:
-        "An e-commerce website for a security agency developed using ReactJS, TailwindCSS.",
+        "An advocate portfolio website developed using ReactJS, TailwindCSS.",
     },
     {
       id: 7,
